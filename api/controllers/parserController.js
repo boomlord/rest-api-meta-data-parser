@@ -1,7 +1,7 @@
 
 // var request = require('request');
-export.parse_home = function (req, res) {
-	res.send('Meta Data Parser RestAPI');
+exports.parse_home = function (req, res) {
+	res.send("Meta Data Parser RestAPI");
 };
 
 exports.parse_landingurl = function(req, res) {
